@@ -107,8 +107,12 @@ ul {
   height: 600px;
   max-width: 1600px;
   margin: 0 auto;
-  background-color: #2f303a;
-}
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('./images/typ1.jpg');
+  object-fit: cover;
+}   
 .guzik {
   display: flex;
 }
@@ -155,7 +159,7 @@ ul {
 
 .lorem {
   display: flex;
-
+  background-image: url(images\main-bg-photo.jpg);
   align-content: center;
   padding: 0;
 }
