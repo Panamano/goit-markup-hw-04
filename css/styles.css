@@ -110,7 +110,7 @@ ul {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('./images/typ1.jpg');
+  background-image: url('https://panamano.github.io/goit-markup-hw-04/images/main-bg-photo.jpg'); 
   object-fit: cover;
 }   
 .guzik {
