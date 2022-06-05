@@ -45,7 +45,7 @@ ul {
   list-style: none;
 }
 .header-icon-svg {
-  fill: inherit
+  fill: inherit;
 }
 .header-contacts-with-icon {
   display: flex;
@@ -209,7 +209,7 @@ ul {
 .lorem-title {
   width: 270px;
   height: 16px;
- 
+
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -284,6 +284,9 @@ ul {
   justify-content: center;
   text-align: center;
   background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-figure:first-child {
   padding-left: 0px;
@@ -300,7 +303,7 @@ ul {
   align-content: center;
 }
 .team-icons-svg {
-  fill:#afb1b8;
+  fill: #afb1b8;
   height: 44px;
   width: 44px;
   border-radius: 50%;
@@ -328,7 +331,7 @@ ul {
   width: 106px;
   height: 60px;
 } */
-.client-box>.client-box-svg:hover {
+.client-box > .client-box-svg:hover {
   fill: #2196f3;
 }
 .button {
@@ -488,23 +491,33 @@ ul {
   padding-left: 70px;
 }
 
-.footer-icons-list{
+.footer-icons-list {
   display: flex;
   justify-content: space-around;
   align-content: center;
 }
+.footer-div {
+  display: flex;
+  padding-right: 10px;
+}
 .footer-icons-svg {
   height: 44px;
   width: 44px;
-  /* padding: 10px 5px; */
-  padding-right: 5px;
+  border-radius: 50%;
+  /* padding-right: 5px; */
+  background: rgba(255, 255, 255, 0.1);;
+  fill: white;
 }
 .footer-icons-svg:first-of-type {
   padding-left: 0px;
 }
+.footer-icons-svg:hover {
+  background: #2196f3;
+}
+
+
 .address {
   font-style: normal;
   text-decoration: none;
   color: white;
 }
-
