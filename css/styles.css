@@ -56,11 +56,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  
 }
 .header-contacts-div:hover {
   color: #2196f3;
   stroke: #2196f3;
+  fill: #2196f3;
 }
 .header-contacts-with-icon:last-child {
   margin-right: 0;
