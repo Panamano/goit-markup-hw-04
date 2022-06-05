@@ -44,6 +44,21 @@ ul {
   justify-content: space-between;
   list-style: none;
 }
+.header-icon-svg {
+  fill: inherit
+}
+.header-contacts-with-icon {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+.header-contacts-with-icon:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
+.header-contacts-with-icon:last-child {
+  margin-right: 0;
+}
 .navigation-logo {
   display: block;
   text-decoration: none;
@@ -89,13 +104,11 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  margin: 25px;
+  padding-left: 10px;
   text-decoration: none;
   color: #757575;
 }
-.link2:last-child {
-  margin-right: 0;
-}
+
 .link2:hover {
   color: #2196f3;
 }
@@ -110,9 +123,14 @@ ul {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('https://panamano.github.io/goit-markup-hw-04/images/main-bg-photo.jpg'); 
+  background-image: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(47, 48, 58, 0.4) 0%
+    ),
+    url(/images/main-bg-photo.jpg);
   object-fit: cover;
-}   
+}
 .guzik {
   display: flex;
 }
@@ -159,7 +177,6 @@ ul {
 
 .lorem {
   display: flex;
-  background-image: url(images\main-bg-photo.jpg);
   align-content: center;
   padding: 0;
 }
@@ -176,12 +193,23 @@ ul {
 .lorem-box:first-child {
   padding-left: 0px;
 }
-
+.lorem-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.lorem-icon-svg {
+  width: 70px;
+  height: 70px;
+}
 .lorem-title {
   width: 270px;
   height: 16px;
-  left: 215px;
-
+ 
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -262,6 +290,46 @@ ul {
 }
 .team-figure:last-child {
   padding-right: 0px;
+}
+.figure-title {
+  font-weight: 700;
+}
+.team-icons {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.team-icons-svg {
+  fill:#afb1b8;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.team-icons-svg:hover {
+  fill: white;
+  background: #2196f3;
+}
+.client-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+  border-radius: 4px;
+}
+.client-box:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
+/* .client-box-svg {
+  fill: #afb1b8;
+  width: 106px;
+  height: 60px;
+} */
+.client-box>.client-box-svg:hover {
+  fill: #2196f3;
 }
 .button {
   display: flex;
@@ -402,11 +470,41 @@ ul {
 .footer-phone:hover {
   color: #2196f3;
 }
+.footer-flex {
+  display: flex;
+  align-items: center;
+}
+.footer-join {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-ul {
+  display: block;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 70px;
+}
+
+.footer-icons-list{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.footer-icons-svg {
+  height: 44px;
+  width: 44px;
+  /* padding: 10px 5px; */
+  padding-right: 5px;
+}
+.footer-icons-svg:first-of-type {
+  padding-left: 0px;
+}
 .address {
   font-style: normal;
   text-decoration: none;
   color: white;
 }
-.figure-title {
-  font-weight: 700;
-}
+
