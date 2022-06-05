@@ -115,7 +115,7 @@ ul {
   color: #757575;
 }
 
-.link2:hover {
+.header-contacts-div>.link2:hover {
   color: #2196f3;
 }
 .bg {
@@ -134,7 +134,7 @@ ul {
       rgba(63, 94, 251, 1) 0%,
       rgba(47, 48, 58, 0.4) 0%
     ),
-    url(./images/main-bg-photo.jpg);
+    url(/images/main-bg-photo.jpg);
   object-fit: cover;
 }
 .guzik {
