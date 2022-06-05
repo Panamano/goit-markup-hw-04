@@ -45,16 +45,22 @@ ul {
   list-style: none;
 }
 .header-icon-svg {
-  fill: inherit;
+  fill: #757575;
 }
 .header-contacts-with-icon {
   display: flex;
   align-items: center;
   margin: 15px;
 }
-.header-contacts-with-icon:hover {
+.header-contacts-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.header-contacts-div:hover {
   color: #2196f3;
-  fill: #2196f3;
+  stroke: #2196f3;
 }
 .header-contacts-with-icon:last-child {
   margin-right: 0;
@@ -299,7 +305,7 @@ ul {
 }
 .team-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-content: center;
 }
 .team-icons-svg {
@@ -311,6 +317,7 @@ ul {
 .team-icons-svg:hover {
   fill: white;
   background: #2196f3;
+  cursor: pointer;
 }
 .client-box {
   display: flex;
@@ -321,6 +328,7 @@ ul {
   border: 1px solid #afb1b8;
   fill: #afb1b8;
   border-radius: 4px;
+  cursor: pointer;
 }
 .client-box:hover {
   fill: #2196f3;
@@ -331,9 +339,9 @@ ul {
   width: 106px;
   height: 60px;
 } */
-.client-box > .client-box-svg:hover {
+/* .client-box > .client-box-svg:hover {
   fill: #2196f3;
-}
+} */
 .button {
   display: flex;
   font-family: "Roboto", sans-serif;
@@ -505,7 +513,7 @@ ul {
   width: 44px;
   border-radius: 50%;
   /* padding-right: 5px; */
-  background: rgba(255, 255, 255, 0.1);;
+  background: rgba(255, 255, 255, 0.1);
   fill: white;
 }
 .footer-icons-svg:first-of-type {
@@ -513,8 +521,8 @@ ul {
 }
 .footer-icons-svg:hover {
   background: #2196f3;
+  cursor: pointer;
 }
-
 
 .address {
   font-style: normal;
