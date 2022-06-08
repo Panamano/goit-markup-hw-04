@@ -67,32 +67,33 @@ header {
   align-items: center;
   justify-content: flex-start;
 }
-.header-contacts-div:hover {
+/* .header-contacts-div:hover {
   color: var(--blue);
   stroke: var(--blue);
   fill: var(--blue);
 }
+.header-contacts-div:focus {
+  color: var(--blue);
+  stroke: var(--blue);
+  fill: var(--blue);
+} */
 .header-contacts-with-icon:last-child {
   margin-right: 0;
 }
 .navigation-logo {
   display: block;
   text-decoration: none;
-
   width: 145px;
   height: 31px;
   /* left: 215px;
   top: 24px; */
-
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: var(--blue);
 }
 .navigation-logo > span {
@@ -112,6 +113,9 @@ header {
 .link1:hover {
   color: var(--blue);
 }
+.link1:focus {
+  color: var(--blue);
+}
 .link2 {
   display: flex;
   align-items: flex-start;
@@ -125,8 +129,15 @@ header {
   text-decoration: none;
   color: var(--light-gray);
 }
-.header-contacts-div > a:hover {
+.link2:hover {
   color: var(--blue);
+  fill: var(--blue);
+  stroke: var(--blue);
+}
+.link2:focus {
+  color: var(--blue);
+  fill: var(--blue);
+  stroke: var(--blue);
 }
 .bg {
   display: flex;
@@ -136,7 +147,6 @@ header {
   height: 600px;
   max-width: 1600px;
   margin: 0 auto;
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-image: radial-gradient(
@@ -472,6 +482,9 @@ header {
 .footer-mail:hover {
   color: var(--blue);
 }
+.footer-mail:focus {
+  color: var(--blue);
+}
 .footer-phone {
   margin-bottom: 9px;
   width: 231px;
@@ -487,6 +500,9 @@ header {
   text-decoration: none;
 }
 .footer-phone:hover {
+  color: var(--blue);
+}
+.footer-phone:focus {
   color: var(--blue);
 }
 .footer-flex {
@@ -529,6 +545,9 @@ header {
 .footer-icons-svg:hover {
   background: var(--blue);
   cursor: pointer;
+}
+.footer-icons-svg:focus {
+  color: var(--blue);
 }
 .address {
   font-style: normal;
