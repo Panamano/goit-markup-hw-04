@@ -120,6 +120,7 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -332,6 +333,15 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
+}
+.team-icons-item {
+  padding-bottom: 30px;
+}
+.team-icons-item:first-child {
+  padding-left: 32px;
+}
+.team-icons-item:last-child {
+  padding-right: 32px;
 }
 .team-icons-svg {
   fill: var(--icon-gray);
